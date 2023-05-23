@@ -1,0 +1,130 @@
+const products = [
+    {
+        images: 'images/carrosel1.jpg',
+        title: 'Tradicional',
+        desc: 'eee',
+        price: 1.99,
+    },
+    {
+        images: 'images/thumbnail_IMG-20230516-WA0008 (1).jpg',
+        title: 'Tradicional',
+        desc: 'eee',
+        price: 1.99,
+    },
+    {
+        images: 'images/IMG-20230516-WA0009.jpg',
+        title: 'Tradicional',
+        desc: 'eee',
+        price: 1.99,
+    },
+    {
+        images: 'images/bem1.jpg',
+        title: 'Tradicional',
+        desc: 'eee',
+        price: 1.99,
+    },
+    {
+        images: 'images/IMG-20230515-WA0099.jpg',
+        title: 'ee',
+        desc: 'eee',
+        price: 1.99,
+    },
+    {
+        images: 'images/IMG-20230515-WA0075.jpg',
+        title: 'ee',
+        desc: 'eee',
+        price: 1.99,
+    },
+    {
+        images: 'images/IMG-20230515-WA0063.jpg',
+        title: 'Tradicional',
+        desc: 'eee',
+        price: 1.99,
+    },
+    {
+        images: 'images/bem_nascido1.jpg',
+        title: 'Tradicional',
+        desc: 'eee',
+        price: 1.99,
+    },
+    {
+        images: 'images/bem_nascido2.jpg',
+        title: 'Tradicional',
+        desc: 'eee',
+        price: 1.99,
+    },
+    {
+        images: 'images/IMG-20230515-WA0090.jpg',
+        title: 'ee',
+        desc: 'eee',
+        price: 1.99,
+    },
+    {
+        images: 'images/IMG-20230515-WA0071.jpg',
+        title: 'Tradicional',
+        desc: 'eee',
+        price: 1.99,
+    },
+    {
+        images: 'images/IMG-20230515-WA0070.jpg',
+        title: 'Tradicional',
+        desc: 'eee',
+        price: 1.99,
+    },
+    {
+        images: 'images/IMG-20230515-WA0081.jpg',
+        title: 'ee',
+        desc: 'eee',
+        price: 1.99,
+    },
+    {
+        images: 'images/IMG-20230515-WA0079.jpg',
+        title: 'ee',
+        desc: 'eee',
+        price: 1.99,
+    },
+    {
+        images: 'images/IMG-20230515-WA0080.jpg',
+        title: 'ee',
+        desc: 'eee',
+        price: 1.99,
+    },
+    {
+        images: 'images/bem2.jpg',
+        title: 'Tradicional',
+        desc: 'eee',
+        price: 1.99,
+    },
+    {
+        images: 'images/IMG-20230515-WA0078.jpg',
+        title: 'ee',
+        desc: 'eee',
+        price: 1.99,
+    },
+    {
+        images: 'images/IMG-20230515-WA0084.jpg',
+        title: 'ee',
+        desc: 'eee',
+        price: 1.99,
+    },
+    {
+        images: 'images/IMG-20230515-WA0087.jpg',
+        title: 'ee',
+        desc: 'eee',
+        price: 1.99,
+    },
+    {
+        images: 'images/IMG-20230515-WA0092.jpg',
+        title: 'ee',
+        desc: 'eee',
+        price: 1.99,
+    },
+    {
+        images: 'images/IMG-20230515-WA0072.jpg',
+        title: 'Tradicional',
+        desc: 'eee',
+        price: 1.99,
+    },
+];
+
+export default products;

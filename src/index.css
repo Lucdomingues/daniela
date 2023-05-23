@@ -1,13 +1,569 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Poppins:wght@400;500;600&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Source+Sans+Pro:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Dancing+Script:wght@700&family=Poppins:wght@400;500;600&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Source+Sans+Pro:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Dancing+Script:wght@700&family=Martel:wght@600;700&family=Overpass:ital,wght@0,500;1,600&family=Poppins:wght@400;500;600&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Source+Sans+Pro:wght@300&family=Tajawal:wght@900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=DM+Sans&family=Dancing+Script:wght@700&family=Martel:wght@600;700&family=Overpass:ital,wght@0,500;1,600&family=Poppins:wght@400;500;600&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Shadows+Into+Light&family=Source+Sans+Pro:wght@300&family=Tajawal:wght@900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=DM+Sans&family=Dancing+Script:wght@700&family=Martel:wght@600;700&family=Overpass:ital,wght@0,500;1,600&family=Poppins:wght@400;500;600&family=Prompt:ital,wght@1,500&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Shadows+Into+Light&family=Source+Sans+Pro:wght@300&family=Tajawal:wght@900&display=swap');
+
+body{
+    background-color: white;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.font_price{
+  font-family: 'Caveat';
 }
+
+.font_button{
+  font-family: 'Prompt';
+}
+
+.tam_font{
+  font-size: 20px; /* 16px */
+  line-height: 24px; /* 24px */
+}
+
+.font_header{
+    font-family: 'DM Sans', Arial, Helvetica, sans-serif;
+}
+
+.carrossel{
+ height: 700px;
+}
+
+.oferts{
+    background-image: url('../public/images/IMG-20230516-WA0012.jpg');
+    height: 600px;
+}
+
+.font_especial{
+    font-family: 'Dancing Script';
+}
+
+.container_contact {
+			background-image: url('https://images.pexels.com/photos/1702371/pexels-photo-1702371.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: center;
+		}
+
+        .diamond {
+            width: 40px;
+            height: 40px;
+            background-color: transparent;
+            border: 1px solid;
+            border-radius: 0.25rem;
+            transform: rotate(45deg);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .nav-item {
+            transition: all 0.3s ease; /* Adiciona uma transição suave */
+        }
+        .nav-item:hover {
+            transform: scaleX(1.1); /* Escala o elemento horizontalmente */
+        }
+        .nav-item-active::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 1px;
+            background-color: #f687b3;
+            transform: scaleX(0);
+            transition: transform 0.3s ease; /* Adiciona uma transição suave */
+        }
+        .nav-item-active:hover::after {
+            transform: scaleX(1); /* Escala a borda inferior horizontalmente */
+        }
+
+         .instagram-link {
+            display: inline-block;
+            transition: transform 0.3s ease; /* Adiciona uma transição suave */
+        }
+        .instagram-link:hover {
+            transform: translateY(-2px); /* Move o elemento para cima */
+        }
+
+        .font_items{
+            font-family: "Martel";
+        }
+
+        .border-losango {
+            position: relative;
+            border-bottom: 1px solid #fda4af;
+        }
+
+        .border-losango::after {
+            content: "";
+            position: absolute;
+            bottom: -7px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 14px;
+            height: 14px;
+            background-color: #fb7185;
+            transform: rotate(45deg);
+        }
+
+.lines {
+  width: 15%;
+  height: 1px;
+  background-color: white;
+  position: relative;
+}
+
+.diamonds {
+  position: absolute;
+  top: -5px;
+  left: 50%;
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  transform: translateX(-50%) rotate(45deg);
+}
+
+/* --------------------------------------- Responsive carrosel ----------------------------------------------- */
+@media (max-width: 640px) {
+  .carousel-caption .mt-14 {
+    flex-direction: column;
+  }
+  .carousel-caption .mt-14 button {
+    margin-bottom: 1rem;
+  }
+}
+
+/*  -----------------------------------Responsive navbar menu sanduiche ----------------------------------- */
+@media (max-width: 767px) {
+  .menu-checkbox {
+    display: none;
+  }
+
+  .menu-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    width: 30px;
+    height: 24px;
+    position: relative;
+  }
+
+  .menu-icon .navicon {
+    background: #333;
+    display: block;
+    height: 2px;
+    position: relative;
+    transition: background 0.2s ease-out;
+  }
+
+  .menu-icon .navicon:before,
+  .menu-icon .navicon:after {
+    background: #333;
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    transition: all 0.2s ease-out;
+  }
+
+  .menu-icon .navicon:before {
+    top: 5px;
+  }
+
+  .navicon:after {
+top: -5px;
+}
+
+.menu.open .navicon {
+background: transparent;
+}
+
+.menu.open .navicon:before {
+transform: rotate(-45deg);
+}
+
+.menu.open .navicon:after {
+transform: rotate(45deg);
+}
+
+.menu.open .navicon:before,
+.menu.open .navicon:after {
+top: 0;
+}
+
+.menu {
+display: none;
+flex-direction: column;
+align-items: center;
+text-align: center;
+padding-top: 20px;
+}
+
+.menu.open {
+display: flex;
+}
+
+.nav-item {
+margin-bottom: 10px;
+}
+}
+
+/* Estilos para dispositivos desktop */
+@media (min-width: 768px) {
+.menu-checkbox {
+display: none;
+}
+
+.menu-icon {
+display: none;
+}
+
+.menu {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+}
+
+/* Estilos para dispositivos móveis */
+@media (max-width: 768px) {
+  #test2 {
+    padding: 2rem;
+  }
+  
+  .text-6xl {
+    font-size: 3rem;
+  }
+  
+  .text-lg {
+    font-size: 1.5rem;
+  }
+  
+  .py-2 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+  
+  .px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+/* Estilos para tablets */
+@media (min-width: 768px) and (max-width: 1024px) {
+  #test2 {
+    padding: 4rem;
+  }
+  
+  .text-6xl {
+    font-size: 4rem;
+  }
+  
+  .text-lg {
+    font-size: 2rem;
+  }
+  
+  .py-2 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  
+  .px-4 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+/* Estilos para desktops */
+@media (min-width: 1024px) {
+  #test2 {
+    padding: 6rem;
+  }
+  
+  .text-6xl {
+    font-size: 6rem;
+  }
+  
+  .text-lg {
+    font-size: 2.5rem;
+  }
+  
+  .py-2 {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+  
+  .px-4 {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
+
+.btn-hover:hover {
+  			background-color: rgb(127 29 29);
+}
+
+/* ----------------------------------------------- Responsive Contact ------------------------------------------------------- */
+
+.container_contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .container_contact {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.container_contact > div {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .container_contact > div {
+    width: 50%;
+    margin-left: 0;
+    margin-top: 0;
+    text-align: left;
+    margin-right: 16px;
+  }
+}
+
+.text-5xl {
+  font-size: 2.5rem;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.text-black {
+  color: #000;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.font_items {
+  /* Estilos de fonte específicos para font_items */
+}
+
+.text-lg {
+  font-size: 1.125rem;
+}
+
+.mb-8 {
+  margin-bottom: 2rem;
+}
+
+.font_especial {
+  /* Estilos de fonte específicos para font_especial */
+}
+
+.leading-8 {
+  line-height: 2rem;
+}
+
+.btn-transparent {
+  background-color: transparent;
+}
+
+.btn-lg {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  font-size: 1.25rem;
+}
+
+.border-black {
+  border-color: #000;
+}
+
+
+.border-solid {
+  border-style: solid;
+}
+
+.border-2 {
+  border-width: 2px;
+}
+
+.font_button {
+  /* Estilos de fonte específicos para font_button */
+}
+
+.hover:bg-white:hover {
+  background-color: #fff;
+}
+
+/* -------------------------------------------------- Products -------------------------------------------------------- */
+
+.image-container {
+      display: flex;
+    }
+    .image {
+      flex: 1;
+      width: 700px;
+      height: 600px;
+    }
+
+    .lines_products {
+  width: 15%;
+  height: 1px;
+  background-color: rgb(251 113 133);
+  position: relative;
+}
+
+.diamonds_products {
+  position: absolute;
+  top: -5px;
+  left: 50%;
+  width: 10px;
+  height: 10px;
+  background-color: rgb(251 113 133);
+  transform: translateX(-50%) rotate(45deg);
+}
+
+/*------------------------------------------------ ScrollBar -------------------------------------------------------------- */
+
+/* Estilizando a barra de rolagem */
+::-webkit-scrollbar {
+  width: 10px; /* Largura da barra de rolagem */
+}
+
+/* Estilizando o indicador (thumb) da barra de rolagem */
+::-webkit-scrollbar-thumb {
+  background-color: #ccc; /* Cor de fundo do indicador */
+  border-radius: 5px; /* Arredondamento dos cantos */
+}
+
+/* Estilizando a área de arrasto (track) da barra de rolagem */
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1; /* Cor de fundo da área de arrasto */
+  border-radius: 5px; /* Arredondamento dos cantos */
+}
+
+.about-me {
+  display: flex;
+  align-items: center;
+  margin-left: 15rem;
+  margin-right: 15rem;
+  margin-top: 7rem;
+  margin-bottom: 24rem;
+}
+
+.about-me__content {
+  flex: 1;
+  margin-right: 15rem;
+}
+
+.about-me__image-container {
+  width: 230px;
+  height: 230px;
+  background-color: #FCA5A5;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-left: 20px;
+  margin-right: 7rem;
+  display: flex;
+  justify-content: center; /* Adicionado para posicionar no centro horizontal */
+  align-items: center; /* Adicionado para posicionar no centro horizontal */
+}
+
+.about-me__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.about-me__title {
+  font-size: 60px;
+  --tw-text-opacity: 1;
+  color: rgb(251 113 133 / var(--tw-text-opacity));
+  margin-bottom: 4rem;
+}
+
+.about-me__description {
+  font-size: 16px;
+  color: #333333;
+  margin-bottom: 2.25rem;
+}
+
+.about_link{
+  --tw-text-opacity: 1;
+    color: rgb(251 113 133 / var(--tw-text-opacity));
+    margin-left: 0.5rem/* 8px */;
+    font-size: 1.5rem/* 24px */;
+    line-height: 2rem/* 32px */;
+}
+
+.about_link:hover{
+  --tw-text-opacity: 1;
+    color: rgb(253 164 175 / var(--tw-text-opacity));
+    text-decoration-line: underline;
+}
+
+/* Media Query para dispositivos menores */
+@media (max-width: 768px) {
+  .about-me {
+    flex-direction: column;
+    text-align: center;
+    align-items: center; /* Adicionado para posicionar no centro horizontal */
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 4rem;
+    margin-bottom: 12rem;
+  }
+
+  .about-me__image-container {
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 2rem;
+  }
+  .about-me__title {
+  font-size: 60px;
+  margin-top: 2rem;
+  --tw-text-opacity: 1;
+  color: rgb(251 113 133 / var(--tw-text-opacity));
+  margin-bottom: 2rem;
+}
+
+  .about-me__content {
+    margin-right: 2rem;
+  }
+
+  .about_link{
+  --tw-text-opacity: 1;
+    color: rgb(251 113 133 / var(--tw-text-opacity));
+    margin-left: 0.5rem/* 8px */;
+    font-size: 1.5rem/* 24px */;
+    line-height: 2rem/* 32px */;
+}
+
+.about_link:hover{
+  --tw-text-opacity: 1;
+    color: rgb(253 164 175 / var(--tw-text-opacity));
+    text-decoration-line: underline;
+}
+}
+
