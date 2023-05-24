@@ -12,7 +12,7 @@ function AboutMe() {
           <h2 className="about-me__title font_especial">Sobre a Daniela</h2>
           <p className="about-me__description font_items">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus placerat rutrum. Aenean eget ultrices lacus.  ut ligula mi. Nulla ut ris lorem. Nam hendrerit eleifend libero, non iaculis sapien semper nec.</p>
           <div>
-            <a href="https://wa.me/5511947319372" target="_blank" className="about_link font_especial">Me chame!</a>
+            <a href="https://wa.me/5511947319372" target="blank" className="about_link font_especial">Me chame!</a>
           </div>
         </div>
       </div>

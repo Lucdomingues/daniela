@@ -15,7 +15,7 @@ function Carousel() {
               </div>
 
               <div className="mt-14">
-                <a href="https://wa.me/5511947319372" target="_blank" className="btn-transparent btn-lg text-2xl mx-2 text-white border-white py-3 px-20 border-solid border-2 btn-hover font_button">Peça já</a>
+                <a href="https://wa.me/5511947319372" target="blank" className="btn-transparent btn-lg text-2xl mx-2 text-white border-white py-3 px-20 border-solid border-2 btn-hover font_button">Peça já</a>
               </div>
             </div>
           </div>

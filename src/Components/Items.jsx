@@ -6,7 +6,7 @@ function Items() {
         <div>
             <div className="flex flex-wrap justify-center mt-5 mb-52" id='produtos'>
                 <div className="max-w-sm rounded m-2">
-                    <img className="w-full rounded" src="images/bem_nascido2.jpg" alt="Card Image" />
+                    <img className="w-full rounded" src="images/bem_nascido2.jpg" alt="Card" />
                     <div className="px-6 py-4">
                         <h1 className="font-bold text-4xl my-4 font_items">BEM NASCIDOS</h1>
                         <p className="text-gray-700 font_especial text-xl">
@@ -19,7 +19,7 @@ function Items() {
                 </div>
 
                 <div className="max-w-sm rounded m-2">
-                    <img className="w-full rounded" src="images/bem1.jpg" alt="Card Image" />
+                    <img className="w-full rounded" src="images/bem1.jpg" alt="Card" />
                     <div className="px-6 py-4">
                         <h1 className="font-bold text-4xl my-4 font_items">BEM CASADOS</h1>
                         <p className="text-gray-700 font_especial text-xl">
@@ -32,7 +32,7 @@ function Items() {
                 </div>
 
                 <div className="max-w-sm rounded m-2">
-                    <img className="w-full rounded" src="images/bem2.jpg" alt="Card Image" />
+                    <img className="w-full rounded" src="images/bem2.jpg" alt="Card" />
                     <div className="px-6 py-4">
                         <h1 className="font-bold text-4xl my-4 font_items">BEM VIVIDOS</h1>
                         <p className="text-gray-700 font_especial text-xl">

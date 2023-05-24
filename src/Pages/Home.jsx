@@ -6,7 +6,6 @@ import Oferts from '../Components/Oferts'
 import Galery from '../Components/Galery';
 import Contatc from '../Components/Contatc';
 import Social from '../Components/Social'
-import Instagram from '../Components/Instagram';
 import Footer from '../Components/Footer';
 
 function Home() {

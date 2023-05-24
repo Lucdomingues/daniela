@@ -18,10 +18,10 @@ function Header() {
                     <span>(11) 94731-9372</span>
                 </div>
                 <div className="flex space-x-4 mt-2 md:mt-0">
-                    <a target="_blank" href="https://www.instagram.com/danielacamargo.bemcasados/">
+                    <a target="blank" href="https://www.instagram.com/danielacamargo.bemcasados/">
                         <i className="uil uil-instagram text-pink-400"></i>
                     </a>
-                    <a href="https://www.facebook.com/daniela.camargo.5855594/" target="_blank">
+                    <a href="https://www.facebook.com/daniela.camargo.5855594/" target="blank">
                         <i className="uil uil-facebook-f text-pink-400"></i>
                     </a>
                 </div>
