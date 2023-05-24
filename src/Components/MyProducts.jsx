@@ -36,13 +36,13 @@ function MyProducts() {
 
   return (
     <div>
-      <div className="image-container mb-11 mx-4">
+      <div className="image-container">
         <img src="images/thumbnail_IMG-20230516-WA0013.jpg" alt="Imagem 1" className="image" />
         <img src="images/LOGO-removebg-preview.png" alt="Imagem 2" className="image" />
         <img src="images/IMG-20230516-WA0012.jpg" alt="Imagem 3" className="image" />
       </div>
 
-      <div className="container mx-auto my-20 text-center">
+      <div className=" mx-12 my-20 text-center">
         <h2 className="font_especial text-2xl text-rose-400">Elegantes e Finos</h2>
         <h1 className="text-4xl font-bold font_especial mb-8 ">Nossos Produtos</h1>
 
