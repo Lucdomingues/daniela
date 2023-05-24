@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/daniela/static/css/main.a9d89dca.css",
-    "main.js": "/daniela/static/js/main.a0591bf7.js",
+    "main.css": "/daniela/static/css/main.2c7a2c92.css",
+    "main.js": "/daniela/static/js/main.59c1a013.js",
     "static/media/IMG-20230516-WA0012.jpg": "/daniela/static/media/IMG-20230516-WA0012.ad656c966775ce7a89ac.jpg",
     "index.html": "/daniela/index.html",
-    "main.a9d89dca.css.map": "/daniela/static/css/main.a9d89dca.css.map",
-    "main.a0591bf7.js.map": "/daniela/static/js/main.a0591bf7.js.map"
+    "main.2c7a2c92.css.map": "/daniela/static/css/main.2c7a2c92.css.map",
+    "main.59c1a013.js.map": "/daniela/static/js/main.59c1a013.js.map"
   },
   "entrypoints": [
-    "static/css/main.a9d89dca.css",
-    "static/js/main.a0591bf7.js"
+    "static/css/main.2c7a2c92.css",
+    "static/js/main.59c1a013.js"
   ]
 }
