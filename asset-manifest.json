@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/daniela/static/css/main.2c7a2c92.css",
-    "main.js": "/daniela/static/js/main.59c1a013.js",
-    "static/media/IMG-20230516-WA0012.jpg": "/daniela/static/media/IMG-20230516-WA0012.ad656c966775ce7a89ac.jpg",
-    "index.html": "/daniela/index.html",
-    "main.2c7a2c92.css.map": "/daniela/static/css/main.2c7a2c92.css.map",
-    "main.59c1a013.js.map": "/daniela/static/js/main.59c1a013.js.map"
+    "main.css": "/static/css/main.558ec2a8.css",
+    "main.js": "/static/js/main.4355ed3f.js",
+    "static/media/IMG-20230516-WA0012.jpg": "/static/media/IMG-20230516-WA0012.ad656c966775ce7a89ac.jpg",
+    "index.html": "/index.html",
+    "main.558ec2a8.css.map": "/static/css/main.558ec2a8.css.map",
+    "main.4355ed3f.js.map": "/static/js/main.4355ed3f.js.map"
   },
   "entrypoints": [
-    "static/css/main.2c7a2c92.css",
-    "static/js/main.59c1a013.js"
+    "static/css/main.558ec2a8.css",
+    "static/js/main.4355ed3f.js"
   ]
 }
