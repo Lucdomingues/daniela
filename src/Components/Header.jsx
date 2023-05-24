@@ -5,8 +5,8 @@ function Header() {
     return (
         <div>
             <div className="flex flex-wrap items-center justify-between mx-4 md:mx-8 py-2 border-b">
-                <div className="text-sm font_header">
-                    <span className="text-pink-300 pr-2">
+                <div className="text-sm font_header mx-11">
+                    <span className="text-pink-300  pr-2">
                         <i className="uil uil-map-marker text-pink-400 pr-2"></i>Endereço:
                     </span>
                     <span className="break-all">
@@ -17,7 +17,7 @@ function Header() {
                     </span>
                     <span>(11) 94731-9372</span>
                 </div>
-                <div className="flex space-x-4 mt-2 md:mt-0">
+                <div className="flex redes_header space-x-4 mt-2 md:mt-0">
                     <a target="blank" href="https://www.instagram.com/danielacamargo.bemcasados/">
                         <i className="uil uil-instagram text-pink-400"></i>
                     </a>

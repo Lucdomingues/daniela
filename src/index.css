@@ -567,3 +567,19 @@ align-items: center;
 }
 }
 
+@media (max-width: 768px) {
+  .redes_header{
+    margin-left: 45%;
+  }
+
+  .header_local{
+  padding-top: 50px;
+  }
+  }
+
+
+  @media (max-width: 768px) {
+  .footer_media{
+    font-size: 10px;
+  }
+  }
