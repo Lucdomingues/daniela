@@ -13,7 +13,7 @@ function NavBar() {
       <div id='principal' className='font_header text-base flex flex-col md:flex-row justify-between mx-4 md:mx-8 py-8 items-center'>
         <div id="container" className="flex items-center">
           <div id="first_container" className="flex justify-start">
-            <Link to="/home"><img src="images/logo.png" alt="LOGO" className="h-24" /></Link>
+            <Link to="/"><img src="images/logo.png" alt="LOGO" className="h-24" /></Link>
           </div>
         </div>
         <div id="second_container" className="flex justify-end">
